@@ -8,17 +8,37 @@
 
 import UIKit
 import FirebaseAuth
+import FacebookLogin
 
-class StartViewController: UIViewController {
+class StartViewController: UIViewController, LoginButtonDelegate {
+    
     
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordText.isSecureTextEntry = true
         // Do any additional setup after loading the view.
+        let loginButton = FBLoginButton(permissions: [ .publicProfile ])
+        //loginButton.center = loginButton.center
+        loginButton.frame = CGRect(x: 38, y: 600, width: 300, height: 30)
+        loginButton.delegate = self
+        self.view.addSubview(loginButton)
+        if let accesToken = AccessToken.current {
+            print(accesToken)
+        }
+    }
+    
+    func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
+        print("User logged in")
+        self.performSegue(withIdentifier: "toMainSegue", sender: self)
+    }
+    
+    func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
+        print("User log out")
     }
     
     @IBAction func signUpClicked(_ sender: Any) {

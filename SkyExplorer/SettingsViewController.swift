@@ -8,13 +8,23 @@
 
 import UIKit
 import Firebase
+import FacebookLogin
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UIViewController, LoginButtonDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        let loginButton = FBLoginButton(permissions: [ .publicProfile ])
+        //loginButton.center = loginButton.center
+        loginButton.frame = CGRect(x: 38, y: 600, width: 300, height: 30)
+        loginButton.delegate = self
+        self.view.addSubview(loginButton)
+        if let accesToken = AccessToken.current {
+            print(accesToken)
+        }
     }
     
     @IBAction func logoutClicked(_ sender: Any) {
@@ -26,5 +36,12 @@ class SettingsViewController: UIViewController {
         
         performSegue(withIdentifier: "toBackSegue", sender: nil)
     }
+    func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
+        print("User logged in")
+    }
     
+    func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
+        print("User log out")
+        performSegue(withIdentifier: "toBackSegue", sender: nil)
+    }
 }
