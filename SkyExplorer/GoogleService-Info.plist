@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1022758874142-h3mqm5naqf7csobc5a3puksa0ujl4a7h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1022758874142-h3mqm5naqf7csobc5a3puksa0ujl4a7h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAi7m9Xb5QxMvWdOmVbUR8Rbl02us0mG7I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1022758874142</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.emirkalkan.SkyExplorer</string>
+	<key>PROJECT_ID</key>
+	<string>skyexplorer-ec88d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skyexplorer-ec88d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1022758874142:ios:fe81f682012b4d434ad20f</string>
+	<key>DATABASE_URL</key>
+	<string>https://skyexplorer-ec88d.firebaseio.com</string>
+</dict>
+</plist>

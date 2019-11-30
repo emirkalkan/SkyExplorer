@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F06859023919556008EBED0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F06858F23919556008EBED0 /* MapViewController.swift */; };
+		5F0685922391AFB5008EBED0 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0685912391AFB5008EBED0 /* PlaceViewController.swift */; };
+		5F9FFD732389EDE4002ADBBE /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FFD722389EDE4002ADBBE /* SolarSystemViewController.swift */; };
+		5F9FFD752389EE0A002ADBBE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FFD742389EE0A002ADBBE /* SettingsViewController.swift */; };
+		5F9FFD77238A02A0002ADBBE /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FFD76238A02A0002ADBBE /* CompassViewController.swift */; };
+		5F9FFD79238A12AE002ADBBE /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FFD78238A12AE002ADBBE /* CanvasView.swift */; };
+		5FED679E2389E16400F31AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED679D2389E16400F31AE1 /* AppDelegate.swift */; };
+		5FED67A02389E16400F31AE1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FED679F2389E16400F31AE1 /* art.scnassets */; };
+		5FED67A52389E16400F31AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FED67A32389E16400F31AE1 /* Main.storyboard */; };
+		5FED67A72389E16700F31AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FED67A62389E16700F31AE1 /* Assets.xcassets */; };
+		5FED67AA2389E16700F31AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FED67A82389E16700F31AE1 /* LaunchScreen.storyboard */; };
+		5FED67B22389E18200F31AE1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FED67B12389E18200F31AE1 /* StartViewController.swift */; };
+		5FED67B42389E44000F31AE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FED67B32389E44000F31AE1 /* GoogleService-Info.plist */; };
+		7BB459ACE39459E72DCEF6B9 /* Pods_SkyExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14ED8BC9ABF42DC5F61658E1 /* Pods_SkyExplorer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12CBD969D43863360782DDF1 /* Pods-SkyExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyExplorer.debug.xcconfig"; path = "Target Support Files/Pods-SkyExplorer/Pods-SkyExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		14ED8BC9ABF42DC5F61658E1 /* Pods_SkyExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F06858F23919556008EBED0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5F0685912391AFB5008EBED0 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		5F9FFD722389EDE4002ADBBE /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
+		5F9FFD742389EE0A002ADBBE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5F9FFD76238A02A0002ADBBE /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		5F9FFD78238A12AE002ADBBE /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		5FED679A2389E16400F31AE1 /* SkyExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FED679D2389E16400F31AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FED679F2389E16400F31AE1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		5FED67A42389E16400F31AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FED67A62389E16700F31AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FED67A92389E16700F31AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FED67AB2389E16700F31AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FED67B12389E18200F31AE1 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5FED67B32389E44000F31AE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDF2E685F88F66BA96FAB8BD /* Pods-SkyExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyExplorer.release.xcconfig"; path = "Target Support Files/Pods-SkyExplorer/Pods-SkyExplorer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FED67972389E16400F31AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB459ACE39459E72DCEF6B9 /* Pods_SkyExplorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FED67912389E16400F31AE1 = {
+			isa = PBXGroup;
+			children = (
+				5FED679C2389E16400F31AE1 /* SkyExplorer */,
+				5FED679B2389E16400F31AE1 /* Products */,
+				B287D1EE328D5575499F6765 /* Pods */,
+				D62A63EBBA46365FC9DAB36A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FED679B2389E16400F31AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FED679A2389E16400F31AE1 /* SkyExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FED679C2389E16400F31AE1 /* SkyExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				5FED679D2389E16400F31AE1 /* AppDelegate.swift */,
+				5FED679F2389E16400F31AE1 /* art.scnassets */,
+				5FED67A32389E16400F31AE1 /* Main.storyboard */,
+				5F9FFD722389EDE4002ADBBE /* SolarSystemViewController.swift */,
+				5F9FFD742389EE0A002ADBBE /* SettingsViewController.swift */,
+				5F9FFD76238A02A0002ADBBE /* CompassViewController.swift */,
+				5FED67B12389E18200F31AE1 /* StartViewController.swift */,
+				5FED67A62389E16700F31AE1 /* Assets.xcassets */,
+				5FED67A82389E16700F31AE1 /* LaunchScreen.storyboard */,
+				5FED67AB2389E16700F31AE1 /* Info.plist */,
+				5FED67B32389E44000F31AE1 /* GoogleService-Info.plist */,
+				5F9FFD78238A12AE002ADBBE /* CanvasView.swift */,
+				5F06858F23919556008EBED0 /* MapViewController.swift */,
+				5F0685912391AFB5008EBED0 /* PlaceViewController.swift */,
+			);
+			path = SkyExplorer;
+			sourceTree = "<group>";
+		};
+		B287D1EE328D5575499F6765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12CBD969D43863360782DDF1 /* Pods-SkyExplorer.debug.xcconfig */,
+				CDF2E685F88F66BA96FAB8BD /* Pods-SkyExplorer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D62A63EBBA46365FC9DAB36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14ED8BC9ABF42DC5F61658E1 /* Pods_SkyExplorer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FED67992389E16400F31AE1 /* SkyExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FED67AE2389E16700F31AE1 /* Build configuration list for PBXNativeTarget "SkyExplorer" */;
+			buildPhases = (
+				0200D4F5875AD34BDBD4CF15 /* [CP] Check Pods Manifest.lock */,
+				5FED67962389E16400F31AE1 /* Sources */,
+				5FED67972389E16400F31AE1 /* Frameworks */,
+				5FED67982389E16400F31AE1 /* Resources */,
+				06F75C948051AD9F070B8A4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyExplorer;
+			productName = SkyExplorer;
+			productReference = 5FED679A2389E16400F31AE1 /* SkyExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FED67922389E16400F31AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Emir Kalkan";
+				TargetAttributes = {
+					5FED67992389E16400F31AE1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FED67952389E16400F31AE1 /* Build configuration list for PBXProject "SkyExplorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FED67912389E16400F31AE1;
+			productRefGroup = 5FED679B2389E16400F31AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FED67992389E16400F31AE1 /* SkyExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FED67982389E16400F31AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FED67A02389E16400F31AE1 /* art.scnassets in Resources */,
+				5FED67AA2389E16700F31AE1 /* LaunchScreen.storyboard in Resources */,
+				5FED67B42389E44000F31AE1 /* GoogleService-Info.plist in Resources */,
+				5FED67A72389E16700F31AE1 /* Assets.xcassets in Resources */,
+				5FED67A52389E16400F31AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0200D4F5875AD34BDBD4CF15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyExplorer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06F75C948051AD9F070B8A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyExplorer/Pods-SkyExplorer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyExplorer/Pods-SkyExplorer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyExplorer/Pods-SkyExplorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FED67962389E16400F31AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0685922391AFB5008EBED0 /* PlaceViewController.swift in Sources */,
+				5FED679E2389E16400F31AE1 /* AppDelegate.swift in Sources */,
+				5FED67B22389E18200F31AE1 /* StartViewController.swift in Sources */,
+				5F9FFD79238A12AE002ADBBE /* CanvasView.swift in Sources */,
+				5F9FFD77238A02A0002ADBBE /* CompassViewController.swift in Sources */,
+				5F9FFD752389EE0A002ADBBE /* SettingsViewController.swift in Sources */,
+				5F9FFD732389EDE4002ADBBE /* SolarSystemViewController.swift in Sources */,
+				5F06859023919556008EBED0 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FED67A32389E16400F31AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FED67A42389E16400F31AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FED67A82389E16700F31AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FED67A92389E16700F31AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FED67AC2389E16700F31AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FED67AD2389E16700F31AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FED67AF2389E16700F31AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CBD969D43863360782DDF1 /* Pods-SkyExplorer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9A74HN99;
+				INFOPLIST_FILE = SkyExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirkalkan.SkyExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FED67B02389E16700F31AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF2E685F88F66BA96FAB8BD /* Pods-SkyExplorer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6K9A74HN99;
+				INFOPLIST_FILE = SkyExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirkalkan.SkyExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FED67952389E16400F31AE1 /* Build configuration list for PBXProject "SkyExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FED67AC2389E16700F31AE1 /* Debug */,
+				5FED67AD2389E16700F31AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FED67AE2389E16700F31AE1 /* Build configuration list for PBXNativeTarget "SkyExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FED67AF2389E16700F31AE1 /* Debug */,
+				5FED67B02389E16700F31AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FED67922389E16400F31AE1 /* Project object */;
+}
